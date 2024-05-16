@@ -1,9 +1,0 @@
-@keyframes blink{
-    0%{background-color:aqua;}
-    50%{background-color:blueviolet;}
-    100%{background-color:greenyellow;}
-}
-
-body{
-    animation: blink 0.5s infinite;
-}
