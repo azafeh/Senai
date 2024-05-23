@@ -1,27 +1,15 @@
-.pai {
-    width: 600px;
-    border: 2px solid black;
-    padding-left: 10px;
-    flex-wrap: wrap;
-    margin: 0 auto;
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo{
     display: flex;
-    gap: 6px;
+    justify-content: space-between;
 }
 
-.pai > * {
-    border: 1px solid black;
-    padding: 5px;
-    margin: 10px 0;
-}
+.conteudo img{
+    width: 500px;
+    height: 500px;
 
-.h1 {
-    border: 1px solid rgb(18, 180, 18);
-}
-
-.h2 {
-    border: 1px solid rgb(131, 9, 212);
-}
-
-.h3 {
-    border: 1px solid rgb(153, 14, 14);
 }
